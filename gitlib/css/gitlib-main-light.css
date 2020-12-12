@@ -1,0 +1,208 @@
+/*
+ Programming By: AzizJaber
+ GITHUB PAGE: https://github.com/azizmjaber02
+ Discord: AzizJaber.#5414
+ GITLIB V1.0.0
+ All Rights Reserved.
+*/
+
+.gitlib {
+  cursor: pointer;
+  color:#1e1e1e;
+  background:#f1f1f1;
+  border-radius: 3px;
+  padding: 1.1em;
+  display:inline-block;
+  text-align:center;
+  position:relative;
+  font:15px/1.5 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  -moz-box-shadow: 10px 10px 5px #3a3a3a2a;
+  -webkit-box-shadow: 10px 10px 5px #3a3a3a2a;
+  box-shadow: 5px 5px 10px #3a3a3a2a;
+}
+
+.gitlib .gb-summary, .gitlib .detail {
+  float:left;
+}
+
+.gitlib .gb-summary {
+  margin-right: 40px;
+}
+
+.gitlib .fa {
+  width: 1.9em;
+}
+
+.gitlib .octicon {
+  margin-left: 0.1em;
+  width: 1.6em;
+}
+
+.gitlib .fa-star {
+  margin-left: 0.002em;
+  width: 1.8em;
+}
+
+.gitlib img {
+  text-align:center;
+}
+
+.gitlib img.user {
+  border-radius: 50%;
+  display: block;
+  margin:0 auto 10px auto;
+}
+
+.gitlib img.dex {
+  display: block;
+  position:absolute;
+  bottom:3px;
+  right:2px;
+}
+
+.gitlib h4 {
+  font-size:1.5em;
+}
+
+.gitlib h4, p {
+  text-align: left;
+  display: block;
+  margin:5px 0 5px 0;
+}
+
+.gitlib .detail section {
+  border: 0.5px solid #1e1e1e;
+  background:#f1f1f1;
+  border-radius:3px;
+  margin-bottom: 1em;
+  max-width: 270px;
+}
+
+.gitlib .detail section h4 {
+  border-radius:3px 3px 0 0;
+  background:#f5f5f5;
+  margin: 0;
+  padding:0.5em 0.75em;
+}
+
+.gitlib .detail section p {
+  padding:0.5em 0.5em 0.5em 0.75em;
+  margin:0;
+  border-top: 1px solid #d8d8d8;
+  white-space: nowrap;
+}
+
+.gitlib .repos .fa-star {
+  width: 1.25em;
+}
+
+.gitlib .repos span {
+  margin-right: 1em;
+  display: inline-block;
+  width: 0.9em;
+}
+
+.powered {
+  padding-top:20px;
+}
+
+.powered a {
+  color:#ccc;
+  font-family:'Helvetica';
+  font-size:9px;
+}
+
+.gitlib.mini {
+  padding: 1.2em;
+  -moz-box-shadow: 10px 10px 5px #3a3a3a2a;
+  -webkit-box-shadow: 10px 10px 5px #3a3a3a2a;
+  box-shadow: 5px 5px 10px #3a3a3a2a;
+}
+
+.gitlib.mini .repos span {
+  margin-right:0em;
+}
+
+.gitlib.mini .user {
+  float:left;
+  margin-right:1.25em;
+}
+
+.gitlib.mini .gb-summary {
+  margin-right: 25px;
+  padding-top: 1px;
+}
+
+.gitlib.mini .gb-summary p {
+  display: inline-block;
+  padding-top: 0em;
+  margin-right:1em;
+  font-size:0.9em;
+}
+
+.gitlib.mini
+.fa,
+.gitlib.mini .octicon {
+  display:inline-block;
+  height: 1em;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  width:2em !important;
+}
+
+.gitlib.mini .octicon-repo {
+  padding-left: 0.2em;
+}
+
+.gitlib.mini .dex {
+  right:6px;
+  top:5px;
+}
+
+
+.gitlib.mini h4 {
+  position:absolute;
+  top:0px;
+  left:75px;
+  font-size:0.85em;
+}
+
+.gitlib .history {
+  width:150px;
+  left:75px;
+  border:0.01em solid #1e1e1e;
+  background-color: #f3f3f3;
+  clear:both;
+  position:absolute;
+  top:45px;
+  padding:0.05em 0.075em;
+}
+
+.gitlib .history i {
+  height:6px;
+  width:6px;
+  border:1px solid #1e1e1e;
+  margin:0.9px;
+  display:inline-block;
+}
+
+.gitlib .history i.few-commits {
+  background:#d6e685;
+}
+
+.gitlib .history i.some-commits {
+  background:#8cc665;
+}
+
+.gitlib .history i.more-commits {
+  background:#44a340;
+}
+
+.gitlib .history i.many-commits {
+  background:#1e6823;
+}
+
+.gitlib .detail section.languages p {
+  white-space: normal;
+}
